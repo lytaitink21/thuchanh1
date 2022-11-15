@@ -1,0 +1,189 @@
+<html>
+<title>caodangcongdong</title>
+<meta charset="utf-8">
+<head>
+<style>
+
+ .slideshow{
+    width:800px;
+	height:100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.duongvien{
+    width:3200px;
+	-webkit-animation:slide 8s ease infinite;
+}
+.slide{
+    float:left;
+	width:800px;
+	height:100px;
+	display:flex;
+}
+@-webkit-keyframes slide{
+    20%{margin-left:0px;}
+	40%{margin-left:-800px;}
+	60%{margin-left:-1600px;}
+	80%{margin-left:-2400px;}
+	
+}
+
+
+
+.menu {
+    background:#121212;
+}
+.menu ul{
+    list-style:none;
+	padding:0 15px;
+}
+.menu ul li{
+    position:relative;
+}
+.menu ul li a{
+    color:#EDEDED;
+	text-decoration:none;
+}
+.menu > ul > li{
+     display: inline-block;
+}
+.menu > ul > li > a{
+     display:block;
+	 line-height:40px;
+	 padding:0 15px;
+}
+.menu ul ul{
+    width:220px;
+	position:absolute;
+	visibility:hidden;
+}
+.menu ul ul li{
+     line-height:40px;
+	 background:red;
+	 padding: 0 15px;
+	 left: -15px;
+}
+.menu ul ul li:hover{
+     background:#121212;
+}
+.menu ul li:hover > ul{
+     visibility:visible;
+	 top:100%
+}
+.menu ul ul ul {
+    top: 0 !important;
+	left:100%;
+}
+</style>
+</head>
+<body>
+
+<table border="1">
+
+<tr align="center">
+<td colspan="3" height="80" width="2000">
+
+<img src="banner_cdn.jpg">
+
+</td>
+</tr> 
+
+<tr align="center" valign="top" >
+<td colspan="3" height="80" width="2000">
+
+<div class ="menu">
+     <ul>
+	   <li><a href="#">trang chu</a>
+	       <ul>
+			  <li><a href="#">phong</a></li>
+	          <li><a href="#">trung tam</a></li>
+			  <li><a href="#">khoa</a></li>
+			</ul>
+	   
+	   </li>
+	   <li><a href="#">gioi thieu</a>
+	        <ul>
+			  <li><a href="#">abc</a></li>
+	          <li><a href="#">xyz</a></li>
+			  <li><a href="#">jkl</a></li>
+			</ul>
+	   
+	   </li>
+	   <li><a href="#">cac don vi</a>
+	        <ul>
+			  <li><a href="#">vi 1</a></li>
+	          <li><a href="#">vi 2</a>
+			      <ul>
+			        <li><a href="#">phong toan</a></li>
+	                <li><a href="#">phong toan</a></li>
+			        <li><a href="#">phong toan</a></li>
+			        </ul>
+			  </li>
+			  <li><a href="#">vi 3</a></li>
+			</ul>
+	   
+	   </li>
+	   <li><a href="#">dao tao</a>
+	        <ul>
+			  <li><a href="#">dao tao 1</a></li>
+	          <li><a href="#">dao tao 2</a></li>
+			  <li><a href="#">dao tao 3</a>
+			       <ul>
+			        <li><a href="#">phong toan</a></li>
+	                <li><a href="#">phong toan</a></li>
+			        <li><a href="#">phong toan</a></li>
+			        </ul>
+			      </li>
+			</ul>
+	   </li>
+	   <li><a href="#">tuyen sinh</a>
+	        <ul>
+			  <li><a href="#">psinh vien</a></li>
+	          <li><a href="#">sinh vien </a></li>
+			  <li><a href="#">sinh vien</a></li>
+			</ul>
+	   </li>
+	 </ul>
+</div>
+
+</td>
+</tr>
+  
+  <tr align="center">
+<td colspan="3" height="80" width="800">
+
+<div class="slideshow">
+  <div class="duongvien">
+   <div class="slide"><img src="bn1.jpg"></div>
+   <div class="slide"><img src="bn2.jpg"></div>
+   <div class="slide"><img src="bn3.jpg"></div>
+   <div class="slide"><img src="bn4.jpg"></div>
+  </div>
+</div>
+
+</td>
+</tr>
+  
+ <tr height="50" align="center">
+    <td rowspan="3">tin moi</td>
+	<td>tin 1</td>
+	<td rowspan="3">ben phai</td>
+ </tr height="50" align="center">
+ <tr height="50" align="center">
+ <td>tin 2</td>
+ </tr>
+ <tr height="50" align="center">
+ <td>tin 3</td>
+ </tr>
+ <tr align="center">
+<td colspan="3" height="100" width="2000"><marquee behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()"> 
+<a href="https://www.thacogroup.vn/"> <img src="h1.png"> 
+<a href="https://hainams.co/"> <img src="h2.png">
+<a href="https://www.baovietbank.vn/"> <img src="h3.png">
+<a href="https://forum.misa.vn/threads/bo-cai-misa-sme-2022-phien-ban-r25.68006/"> <img src="h4.png">
+<a href="https://dichvucong.gov.vn/p/phananhkiennghi/pakn-gui-pakn.html"> <img src="h5.png">
+</marquee> </td>
+</tr>
+</table>
+</body>
+</html>
